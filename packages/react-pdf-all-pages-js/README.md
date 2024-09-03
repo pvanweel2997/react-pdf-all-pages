@@ -43,7 +43,7 @@ const PDFFileViewer2 = ({ file }: { file: DocFile }) => {
 
 When you call usePdf you'll want to pass in a subset of these props, like this:
 
-> `const { pdfDocument,} = usePdf({ pdfLocation, file: 'https://example.com/test.pdf', page });`
+> `const { pdfDocument,} = usePdf({ pdfLocation, file: 'https://example.com/test.pdf' });`
 
 ### pdfLocation
 
