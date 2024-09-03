@@ -1,6 +1,6 @@
 # react-pdf-all-pages-js
 
-`react-pdf-all-pages-js` provides a component for rendering PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/).
+`react-pdf-all-pages-js` provides a component for rendering all pages in a PDF documents using [PDF.js](http://mozilla.github.io/pdf.js/). Scroll through ALL pages using your mouse or keyboard. Comes with built-in 3d styling.
 
 ---
 
@@ -21,7 +21,7 @@ Use the hook in your app (comes with built-in 3d page look out of the box):
 
 
 
-const PDFFileViewer2 = ({ file }: { file: DocFile }) => {
+const PDFFileViewer = ({ file }: { file: DocFile }) => {
   const { pdfDocument } = usePdf({
     file: file.url,
     pdfLocation: "pdfdoc",
@@ -43,11 +43,11 @@ const PDFFileViewer2 = ({ file }: { file: DocFile }) => {
 
 When you call usePdf you'll want to pass in a subset of these props, like this:
 
-> `const { pdfDocument,} = usePdf({ pdfLocation, file: 'https://example.com/test.pdf' });`
+> `const { pdfDocument } = usePdf({ pdfLocation: 'pdfdoc', file: 'https://example.com/test.pdf' });`
 
 ### pdfLocation
 
-an id of an element where you want your pages to display.
+an id of an html element where you want your pages to display.
 
 ### file
 
