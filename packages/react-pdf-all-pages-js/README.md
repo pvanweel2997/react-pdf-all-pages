@@ -97,7 +97,7 @@ Allows you to style your pdf pages by passing in a className.
 
 ### useDefaultStyle (defaults to true)
 
-Specified whether to use the built-in styling or not to use the built-in styling.
+Specifies whether to use the built-in styling or not to use the built-in styling.
 
 ## Returned values
 
