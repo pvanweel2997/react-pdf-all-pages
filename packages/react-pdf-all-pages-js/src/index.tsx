@@ -183,7 +183,9 @@ export const usePdf = ({
         return;
       }
     }
-    drawPDFPages();
+    if (pdfDocument) {
+      drawPDFPages();
+    }
   }, [
     pdfLocation,
     pdfDocument,
