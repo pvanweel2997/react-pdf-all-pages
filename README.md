@@ -1,12 +1,12 @@
-# react-pdf-all-pages-js
+# react-pdf-all-pages
 
-`react-pdf-all-pages-js` provides a component for rendering all pages in a PDF document using [PDF.js](http://mozilla.github.io/pdf.js/). Scroll through ALL pages using your mouse or keyboard. Comes with built-in 3d styling.
+`react-pdf-all-pages` provides a component for rendering all pages in a PDF document using [PDF.js](http://mozilla.github.io/pdf.js/). Scroll through ALL pages using your mouse or keyboard. Comes with built-in 3d styling.
 
 ---
 
 [![NPM Version](https://img.shields.io/npm/v/@pvanweel2997/react-pdf-all-pages.svg?style=flat-square)](https://www.npmjs.com/package/@pvanweel2997/react-pdf-all-pages)
 [![NPM Downloads](https://img.shields.io/npm/dm/@pvanweel2997/react-pdf-all-pages.svg?style=flat-square)](https://www.npmjs.com/package/@pvanweel2997/react-pdf-all-pages)
-[![codecov](https://codecov.io/gh/pvanweel2997/react-pdf-all-pages-js/branch/master/graph/badge.svg)](https://codecov.io/gh/pvanweel2997/react-pdf-all-pages-js)
+[![codecov](https://codecov.io/gh/pvanweel2997/react-pdf-all-pages/branch/master/graph/badge.svg)](https://codecov.io/gh/pvanweel2997/react-pdf-all-pages)
 
 # Usage
 

@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react';
-import { usePdf } from '@pvanwweel2997/react-pdf-all-pages';
+import { usePdf } from '@pvanwweel/react-pdf-all-pages';
 import './index.css';
 import clsx from 'clsx';
 
