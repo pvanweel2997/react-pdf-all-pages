@@ -17,7 +17,6 @@
     "tsc": "yarn workspaces foreach --all run tsc",
     "unit": "yarn workspaces foreach --all run unit"
   },
-  "private": true,
   "devDependencies": {
     "husky": "^9.0.0"
   },
