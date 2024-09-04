@@ -1,6 +1,6 @@
 {
   "name": "@pvanweel/react-pdf-all-pages",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Simple React component to wrap up PDF.js. The easiest way to render all pages of a PDF in your React app.  Comes with default styling.",
   "repository": {
     "type": "git",
