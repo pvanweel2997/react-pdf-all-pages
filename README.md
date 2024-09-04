@@ -4,14 +4,14 @@
 
 ---
 
-[![NPM Version](https://img.shields.io/npm/v/@pvanweel2997/react-pdf-all-pages.svg?style=flat-square)](https://www.npmjs.com/package/@pvanweel2997/react-pdf-all-pages)
-[![NPM Downloads](https://img.shields.io/npm/dm/@pvanweel2997/react-pdf-all-pages.svg?style=flat-square)](https://www.npmjs.com/package/@pvanweel2997/react-pdf-all-pages)
-[![codecov](https://codecov.io/gh/pvanweel2997/react-pdf-all-pages/branch/master/graph/badge.svg)](https://codecov.io/gh/pvanweel2997/react-pdf-all-pages)
+[![NPM Version](https://img.shields.io/npm/v/@pvanweel/react-pdf-all-pages.svg?style=flat-square)](https://www.npmjs.com/package/@pvanweel/react-pdf-all-pages)
+[![NPM Downloads](https://img.shields.io/npm/dm/@pvanweel/react-pdf-all-pages.svg?style=flat-square)](https://www.npmjs.com/package/@pvanweel/react-pdf-all-pages)
+[![codecov](https://codecov.io/gh/pvanweel/react-pdf-all-pages/branch/master/graph/badge.svg)](https://codecov.io/gh/pvanweel/react-pdf-all-pages)
 
 # Usage
 
-Install with `yarn add @pvanweel2997/react-pdf-all-pages` or
-`npm install @pvanweel2997/react-pdf-all-pages `
+Install with `yarn add @pvanweel/react-pdf-all-pages` or
+`npm install @pvanweel/react-pdf-all-pages `
 
 ## `usePdf` hook
 
@@ -100,7 +100,21 @@ Specifies whether to use the built-in styling or not to use the built-in styling
 `pdfjs`'s `PDFDocumentProxy` [object](https://github.com/mozilla/pdf.js/blob/master/src/display/api.js#L579).
 This can be undefined if document has not been loaded yet.
 
-## command to publish: yarn publish ./packages/react-pdf-all-pages --access public
+This is the equivelant css of the default built in styling:
+
+.pdfClass {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1em;
+border-radius: 10px;
+border: 2px solid;
+align-content: center;
+align-items: center;
+box-shadow: rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
+rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
+border-color: rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
+}
 
 # License
 

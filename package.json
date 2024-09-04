@@ -15,7 +15,8 @@
     "lint": "yarn workspaces foreach --all run lint",
     "test": "yarn workspaces foreach --all run test",
     "tsc": "yarn workspaces foreach --all run tsc",
-    "unit": "yarn workspaces foreach --all run unit"
+    "unit": "yarn workspaces foreach --all run unit",
+    "publish": "yarn publish ./packages/react-pdf-all-pages --access public"
   },
   "resolutions": {
     "pdfjs-dist": "patch:pdfjs-dist@npm:4.4.168#.yarn/patches/pdfjs-dist-npm-4.4.168-35a0e70ced.patch"
