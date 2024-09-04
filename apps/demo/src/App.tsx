@@ -1,14 +1,14 @@
-import { useRef, useState } from 'react';
-import { usePdf } from '@pvanwweel/react-pdf-all-pages';
-import './index.css';
-import clsx from 'clsx';
+import { useRef, useState } from "react";
+import { usePdf } from "@pvanwweel/react-pdf-all-pages";
+import "./index.css";
+import clsx from "clsx";
 
 function App() {
   const [page, setPage] = useState(1);
 
   const { pdfDocument } = usePdf({
-    file: 'udm_se_ds.pdf',
-    pdfLocation: 'pdfdoc',
+    file: "udm_se_ds.pdf",
+    pdfLocation: "pdfdoc",
   });
 
   const previousDisabled = page === 1;
@@ -19,16 +19,16 @@ function App() {
       <div className="bg-gradient-to-r from-sky-800 to-indigo-800">
         <div className="container text-center py-12 mx-auto">
           <div className="text-4xl font-bold text-white">
-            @pvanweel2997/react-pdf-all-pages
+            @pvanweel/react-pdf-all-pages
           </div>
           <div className="text-xl text-gray-200 mt-4">
-            The easiest way to render PDFs in React.{' '}
+            The easiest way to render PDFs in React.{" "}
             <a
-              href="https://bundlephobia.com/package/@pvanweel2997/react-pdf-all-pages"
+              href="https://bundlephobia.com/package/@pvanweel/react-pdf-all-pages"
               className="text-blue-400"
             >
               Under 1kB in size.
-            </a>{' '}
+            </a>{" "}
             Modern React hook architecture.
           </div>
         </div>
@@ -47,19 +47,19 @@ function App() {
               NPM
             </a>
             <a
-              href="https://github.com/pvanweel2997/react-pdf-js"
+              href="https://github.com/pvanweel/react-pdf-all-pages"
               className="text-blue-400 underline"
             >
               Github
             </a>
             <a
-              href="https://bundlephobia.com/package/@pvanweel2997/react-pdf-all-pages"
+              href="https://bundlephobia.com/package/@pvanweel/react-pdf-all-pages"
               className="text-blue-400 underline"
             >
               Bundlephobia
             </a>
             <a
-              href="https://opencollective.com/react-pdf-js"
+              href="https://opencollective.com/react-pdf-all-pages"
               className="text-blue-400 underline"
             >
               Open Collective

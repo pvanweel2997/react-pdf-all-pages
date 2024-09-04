@@ -7,8 +7,9 @@
     "packages/*",
     "test"
   ],
+  "private": "true",
   "scripts": {
-    "build": "yarn workspace @pvanweel2997/react-pdf-all-pages build",
+    "build": "yarn workspace @pvanweel/react-pdf-all-pages build",
     "dev": "yarn workspace react-pdf watch & yarn workspace test dev",
     "format": "yarn workspaces foreach --all run format",
     "lint": "yarn workspaces foreach --all run lint",

@@ -10,17 +10,14 @@
 
 # Usage
 
-Install with `yarn add @pvanweel2997/react-pdf-all-pages pdfjs-dist` or
-`npm install @pvanweel2997/react-pdf-all-pages pdfjs-dist`
+Install with `yarn add @pvanweel2997/react-pdf-all-pages` or
+`npm install @pvanweel2997/react-pdf-all-pages `
 
 ## `usePdf` hook
 
 Use the hook in your app (comes with built-in 3d page look out of the box):
 
 ```js
-
-
-
 const PDFFileViewer = ({ file }: { file: DocFile }) => {
   const { pdfDocument } = usePdf({
     file: file.url,
@@ -28,15 +25,12 @@ const PDFFileViewer = ({ file }: { file: DocFile }) => {
   });
 
   return (
-     <div>
+    <div>
       {!pdfDocument && <span>Loading...</span>}
-      <div id="pdfdoc"/>
+      <div id="pdfdoc" />
     </div>
   );
 };
-
-
-
 ```
 
 ## Props
@@ -105,6 +99,8 @@ Specifies whether to use the built-in styling or not to use the built-in styling
 
 `pdfjs`'s `PDFDocumentProxy` [object](https://github.com/mozilla/pdf.js/blob/master/src/display/api.js#L579).
 This can be undefined if document has not been loaded yet.
+
+## command to publish: yarn publish ./packages/react-pdf-all-pages --access public
 
 # License
 

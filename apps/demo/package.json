@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@heroicons/react": "2.1.3",
-    "@pvanweel2997/react-pdf-all-pages": "workspace:*",
+    "@pvanweel/react-pdf-all-pages": "workspace:*",
     "clsx": "2.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
