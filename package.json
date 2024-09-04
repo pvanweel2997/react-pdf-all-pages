@@ -1,6 +1,6 @@
 {
   "name": "@pvanweel/react-pdf-all-pages",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "@pvanweel/react-pdf-all-pages",
   "type": "module",
   "workspaces": [
@@ -12,13 +12,9 @@
     "dev": "yarn workspace react-pdf watch & yarn workspace test dev",
     "format": "yarn workspaces foreach --all run format",
     "lint": "yarn workspaces foreach --all run lint",
-    "postinstall": "husky",
     "test": "yarn workspaces foreach --all run test",
     "tsc": "yarn workspaces foreach --all run tsc",
     "unit": "yarn workspaces foreach --all run unit"
-  },
-  "devDependencies": {
-    "husky": "^9.0.0"
   },
   "resolutions": {
     "pdfjs-dist": "patch:pdfjs-dist@npm:4.4.168#.yarn/patches/pdfjs-dist-npm-4.4.168-35a0e70ced.patch"
