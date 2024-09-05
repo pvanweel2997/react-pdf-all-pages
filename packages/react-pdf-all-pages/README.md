@@ -1,8 +1,7 @@
 # react-pdf-all-pages
 
-Display all pages of a PDFs in your React app as easily as if they were images. Comes with built in 3d styling.
-
-`react-pdf-all-pages` provides a component for rendering all pages in a PDF document using [PDF.js](http://mozilla.github.io/pdf.js/). Scroll through ALL pages using your mouse or keyboard. Comes with built-in 3d styling.
+Display all pages of a PDFs in your React app as easily as if they were images. Comes with built in 3d styling
+using [PDF.js](http://mozilla.github.io/pdf.js/). Scroll up and down through ALL the pages using your mouse or keyboard.
 
 ---
 
