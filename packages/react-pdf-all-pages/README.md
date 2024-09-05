@@ -18,6 +18,8 @@ Install with `yarn add @pvanweel/react-pdf-all-pages` or
 Use the hook in your app (comes with built-in 3d page look out of the box):
 
 ```js
+import { usePdf } from '@pvanweel/react-pdf-all-pages';
+
 const PDFFileViewer = ({ file }: { file: DocFile }) => {
   const { pdfDocument } = usePdf({
     file: file.url,
@@ -102,19 +104,25 @@ This can be undefined if document has not been loaded yet.
 
 This is the equivelant css of the default built in styling:
 
+```css
 .pdfClass {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 1em;
-border-radius: 10px;
-border: 2px solid;
-align-content: center;
-align-items: center;
-box-shadow: rgba(22, 31, 39, 0.42) 0px 60px 123px -25px,
-rgba(19, 26, 32, 0.08) 0px 35px 75px -35px;
-border-color: rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  border: 2px solid;
+  align-content: center;
+  align-items: center;
+  box-shadow: rgba(22, 31, 39, 0.42) 0px 60px 123px -25px, rgba(
+        19,
+        26,
+        32,
+        0.08
+      ) 0px 35px 75px -35px;
+  border-color: rgb(213, 220, 226) rgb(213, 220, 226) rgb(184, 194, 204);
 }
+```
 
 # License
 
