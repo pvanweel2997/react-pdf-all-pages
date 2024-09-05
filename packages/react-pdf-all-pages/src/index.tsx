@@ -173,17 +173,18 @@ export const usePdf = ({
       setAllPdfPages(allPages);
       processPages(allPages);
     };
-    const element = document.getElementById(pdfLocation);
-    if (element) {
-      setPdfLocationDisplay(element);
-    } else {
-      console.log('=== cannot find pdf location:', pdfLocation);
-      if (isFunction(onInvalidLocationRef.current)) {
-        onInvalidLocationRef.current();
-        return;
-      }
-    }
     if (pdfDocument) {
+      const element = document.getElementById(pdfLocation);
+      if (element) {
+        setPdfLocationDisplay(element);
+      } else {
+        if (pdfDocument) {
+          if (isFunction(onInvalidLocationRef.current)) {
+            onInvalidLocationRef.current();
+            return;
+          }
+        }
+      }
       drawPDFPages();
     }
   }, [
