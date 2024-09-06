@@ -105,7 +105,7 @@ Specifies whether to use the built-in styling or not to use the built-in styling
 `pdfjs`'s `PDFDocumentProxy` [object](https://github.com/mozilla/pdf.js/blob/master/src/display/api.js#L579).
 This can be undefined if document has not been loaded yet.
 
-Demo can be found here [demo](https://codesandbox.io/p/devbox/react-app-all-pages-sample-y7ntpr).
+Demo can be found [here](https://codesandbox.io/p/devbox/react-app-all-pages-sample-y7ntpr).
 
 This is the equivelant css of the default built in styling:
 
