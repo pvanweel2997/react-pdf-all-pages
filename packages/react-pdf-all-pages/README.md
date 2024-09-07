@@ -13,7 +13,7 @@ Uses [PDF.js](http://mozilla.github.io/pdf.js/).
 
 # Demo
 
-Demo can be found [here](https://codesandbox.io/p/devbox/react-app-all-pages-sample-y7ntpr).
+Demo can be found [here](https://y7ntpr-4173.csb.app/).
 
 # Usage
 
