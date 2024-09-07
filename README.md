@@ -11,6 +11,10 @@ Uses [PDF.js](http://mozilla.github.io/pdf.js/).
 [![NPM Downloads](https://img.shields.io/npm/dm/@pvanweel/react-pdf-all-pages.svg?style=flat-square)](https://www.npmjs.com/package/@pvanweel/react-pdf-all-pages)
 [![codecov](https://codecov.io/gh/pvanweel/react-pdf-all-pages/branch/master/graph/badge.svg)](https://codecov.io/gh/pvanweel/react-pdf-all-pages)
 
+# Demo
+
+Demo can be found [here](https://codesandbox.io/p/devbox/react-app-all-pages-sample-y7ntpr).
+
 # Usage
 
 Install with `yarn add @pvanweel/react-pdf-all-pages` or
@@ -21,21 +25,23 @@ Install with `yarn add @pvanweel/react-pdf-all-pages` or
 Use the hook in your app (comes with built-in 3d page look out of the box):
 
 ```js
+import "./App.css";
 import { usePdf } from "@pvanweel/react-pdf-all-pages";
 
-const PDFFileViewer = ({ file }: { file: DocFile }) => {
+function App() {
   const { pdfDocument } = usePdf({
-    file: file.url,
+    file: "sample.pdf",
     pdfLocation: "pdfdoc",
   });
 
   return (
-    <div>
-      {!pdfDocument && <span>Loading...</span>}
-      <div id="pdfdoc" />
-    </div>
+    <>
+      <div>{pdfDocument ? <div id="pdfdoc"></div> : <></>}</div>
+    </>
   );
-};
+}
+
+export default App;
 ```
 
 ## Props
@@ -104,8 +110,6 @@ Specifies whether to use the built-in styling or not to use the built-in styling
 
 `pdfjs`'s `PDFDocumentProxy` [object](https://github.com/mozilla/pdf.js/blob/master/src/display/api.js#L579).
 This can be undefined if document has not been loaded yet.
-
-Demo can be found [here](https://codesandbox.io/p/devbox/react-app-all-pages-sample-y7ntpr).
 
 This is the equivelant css of the default built in styling:
 
