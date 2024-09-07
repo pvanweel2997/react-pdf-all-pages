@@ -13,7 +13,7 @@ Uses [PDF.js](http://mozilla.github.io/pdf.js/).
 
 # Demo
 
-Demo can be found [here](https://y7ntpr-4173.csb.app/).
+Demo can be found [here](https://gldcrn-4173.csb.app/).
 
 # Usage
 
